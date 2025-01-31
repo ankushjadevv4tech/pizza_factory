@@ -21,8 +21,8 @@ The setup steps expect following tools installed on the system.
 ## Testing
  Run the following command on the terminal to execute test suit.
   ```bash
-  $ rails test test/
-  $ rails test test/path_to_file # for single file
+  $ rspec test/
+  $ rspec test test/path_to_file # for single file
   ```
 
 And now you can visit the site with the URL http://localhost:3000
